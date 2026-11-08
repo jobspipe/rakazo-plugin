@@ -28,6 +28,22 @@ Use its tools instead of browsing job boards.
   `list_signals`, `update_signal` and `delete_signal`. Do not re-run a search on a
   routine to poll; signals fire on new matches and cost no job credits.
 
+## Common jobs to be done
+
+- **Job hunting:** search with the person's role, location, remote preference, salary
+  floor and seniority; list the best matches with links; offer a signal for new ones.
+- **Recruiting and sourcing:** find companies hiring for a skill in a place
+  (`search_hiring_companies`), or recent layoffs (`search_layoffs`) as candidate pools.
+- **Sales prospecting:** open roles are buying signals. A company hiring for the job
+  a product supports, or using a related tool (`search_companies_by_technology`), is a
+  lead. Return company, the posting that signals intent, and why it fits.
+- **Competitor and market research:** what a company is hiring for, how many roles,
+  in which teams and places, and what the postings reveal about plans and stack.
+- **Compensation and skills:** salary ranges and the skills that recur across postings
+  for a role and place. Report the sample size; only postings that list pay count.
+- **Ongoing monitoring:** for anything the person wants to hear about again, create a
+  signal, or pair a signal with a routine that summarizes new matches.
+
 ## Answer well
 
 1. Start narrow: a small `limit` and recent postings unless the user asks for more.

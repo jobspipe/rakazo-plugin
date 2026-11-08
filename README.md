@@ -11,7 +11,7 @@ tool to use. No code from this repository runs.
 ## Install
 
 1. In Rakazo, open **Integrations**, choose **+** → **From GitHub**, paste
-   `https://github.com/jobspipe/rakazo-plugin`, and choose **Preview**.
+   `https://github.com/jobspipe/rakazo-plugin/tree/main/jobspipe`, and choose **Preview**.
 2. Choose **Connect**, then **Add skills**.
 3. Choose **Sign in** on the JobsPipe server and authorize with your JobsPipe account.
    New accounts start on the free plan (1,000 jobs a month, no card).
@@ -23,12 +23,20 @@ Create a key at https://jobspipe.dev/dashboard, then open **Integrations** → *
 **Manage MCP servers**, edit the JobsPipe server, expand **Advanced**, and paste the key
 (`jp_live_...`) into **Access token**.
 
-## Try it
+## Use cases
 
-- "Who is hiring senior Rust engineers in Germany? Show the last 7 days."
-- "Which companies using Snowflake are hiring data engineers in Singapore?"
-- "What does stripe.com run on?"
-- "Alert me when a new remote product designer role is posted in the US."
+| Who | What to ask a bot |
+| --- | --- |
+| **Job seekers** | "Find remote senior React roles in Europe posted this week that pay over €80k." · "Alert me when a new product designer role opens in Singapore." |
+| **Recruiters and sourcers** | "Which companies are hiring Kubernetes engineers in Berlin right now?" · "Who just laid off data scientists? I want to reach them." |
+| **Sales and GTM teams** | "Find Series B fintechs hiring their first RevOps lead: they need our tool." · "Which companies using Salesforce are hiring SDRs in the US?" |
+| **Founders and product teams** | "Which competitors are hiring for AI roles, and what do the postings say they're building?" · "What stack does linear.app run?" |
+| **Investors and analysts** | "How fast is this portfolio company hiring compared with last quarter?" · "Which startups in Jakarta doubled engineering openings this month?" |
+| **HR and compensation** | "What do data engineer postings in London list as salary ranges?" · "Which skills appear most in staff ML engineer roles?" |
+| **Job boards and newsletters** | "Every remote climate-tech job posted today, as a list with links." · "Alert me when a new remote climate-tech role is posted." |
+
+Bots can combine these on a **routine**: for example, a weekly digest of new roles for
+a job seeker, or a daily list of companies that started hiring for a role you sell into.
 
 ## Tools
 
