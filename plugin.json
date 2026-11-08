@@ -1,0 +1,14 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.1.0/plugin.schema.json",
+  "name": "jobspipe",
+  "version": "1.0.0",
+  "description": "Live job postings from 30+ job boards, ATS feeds and career sites, plus hiring signals, layoffs and company tech stacks, through the hosted JobsPipe MCP server.",
+  "author": {
+    "name": "JobsPipe",
+    "url": "https://jobspipe.dev"
+  },
+  "homepage": "https://jobspipe.dev",
+  "repository": "https://github.com/jobspipe/rakazo-plugin",
+  "license": "MIT",
+  "keywords": ["jobs", "hiring", "recruiting", "job-search", "hiring-signals", "layoffs", "tech-stack", "mcp"]
+}
